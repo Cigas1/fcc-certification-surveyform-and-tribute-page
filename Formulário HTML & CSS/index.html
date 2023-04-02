@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+
+<body>
+    <h1 id="title">
+        DevForms ⚒
+    </h1>
+    <br>
+    <p id="description">
+        Preencha o Formulário e descreva quais são suas principais habilidades com tecnologias.
+    </p>
+    <br>
+    <form id="survey-form">
+        <label id="name-label">Nome:
+            <input required id="name" type="text" placeholder="Insira seu nome">
+        </label>
+        <br>
+        <label id="email-label">Email:
+            <input placeholder="Insira seu email" required id="email" type="email">
+        </label>
+        <br>
+        <label id="number-label">Idade:
+            <input placeholder="Idade" min="18" type="number" id="number" max="100">
+        </label>
+
+        <div class="select">Qual sua ocupação atual?
+            <br>
+            <select id="dropdown">
+                <option name="autonomo" value="autonômo">Autonômo</option>
+                <option name="estudante" value="estudante">Estudante</option>
+                <option name="empregado" value="empregado">Junior</option>
+                <option value="empregado" name="empregado">Sênior</option>
+            </select>
+        </div>
+        <br>
+        <div class="rad">Você procura atualizar seus conhecimentos enquanto Dev?
+            <br>
+            <input type="radio" name="radio" value="sim" id="sim">Sim
+            <input type="radio" name="radio" value="não" id="não">Não
+            <input type="radio" name="radio" value="talvez" id="talvez">Sempre
+        </div>
+        <br>
+        <div class="checkbox"> Quais destas tecnologias você utiliza?
+            <br>
+            <input type="checkbox" value="java" name="Java" id="tecnologia1">Java</input>
+            <input type="checkbox" value="html" name="HTML" id="tecnologia2">HTML</input>
+            <input type="checkbox" value="css" name="CSS" id="tecnologia3">CSS</input>
+            <input type="checkbox" value="javascript" name="JavaScript" id="tecnologia4">Javascript</input>
+            <input type="checkbox" value="python" name="Python" id="tecnologia5">Python</input>
+        </div>
+        <br>
+        <div class="Comentário">Descreva com mais detalhes quais são suas principais habilidades:
+            <textarea placeholder="Exemplo: Java para desenvolvimento mobile..." name="comentário" id="fgfd" cols="60"
+                rows="10"></textarea>
+        </div>
+        <br>
+        <div class="submit">
+            <input type="submit" id="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
