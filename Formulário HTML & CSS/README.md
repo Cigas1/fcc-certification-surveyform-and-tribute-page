@@ -9,6 +9,7 @@ Como esse tecnicamente foi o primeiro projeto que fiz sozinho (sem auxílio), ap
 - Tornar Responsivo;
 - Acessível;
 - Adiconar Animações e melhorar o visual no geral;
+
 A seguir deixarei uma prévia da página web para fins de comparação, como um antes e depois ao longo dos meus estudos a aperfeiçoamentos nesse projeto.
 ## Vizualização da página web:
 ![print webpage forms](https://user-images.githubusercontent.com/118562657/229586587-d568be09-e3af-4f51-9801-eb9d883bf9ff.png)
