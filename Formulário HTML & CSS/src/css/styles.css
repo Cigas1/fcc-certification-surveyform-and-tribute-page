@@ -1,0 +1,106 @@
+p {
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 12px;
+    margin: 25px;
+}
+
+h1 {
+    color: white;
+}
+
+body{
+    background-image: url(../images/fundo1.avif);
+    background-size: 100%;
+    border: 10px;
+    border-radius: 12px;
+    border-color: lightseagreen;
+    box-sizing: content-box;
+    min-width: fit-content;
+    min-height: auto;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.submit{
+    margin-bottom: 25px;
+    border-bottom: 25px solid lightseagreen;
+    border-bottom-right-radius: 12px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Comentário{
+    margin-left: 18px;
+    margin-right: 18px;
+    width: auto;
+    height: auto;
+    background-color: lightseagreen;
+    border-radius: 12px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: auto;
+}
+
+.checkbox{
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 25px;
+    background-color: lightseagreen;
+    border-radius: 12px;
+    align-items:center;
+    align-self:center ;
+    align-content:center;
+
+
+}
+
+.rad{
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 25px;
+    background-color: lightseagreen;
+    border-radius: 12px;
+    align-items:center;
+    align-self:center ;
+    align-content:center; 
+}
+
+.select{
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 25px;
+    background-color: lightseagreen;
+    border-radius: 12px;
+    align-items:center;
+    align-self:center ;
+    align-content:center;
+}
+
+form{
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: lightseagreen;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: 25px solid lightseagreen;
+    align-items:center;
+    align-self:center ;
+    align-content:center;
+}
+
+label{
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items:center;
+    align-self:center ;
+    align-content:center;
+}
