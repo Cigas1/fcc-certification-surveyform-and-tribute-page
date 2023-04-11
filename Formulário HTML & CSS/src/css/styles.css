@@ -1,5 +1,5 @@
 p {
-    color: b;
+    color: white;
     font-size: 14px;
     font-family: sans-serif;
     font-style: italic;
@@ -9,27 +9,32 @@ p {
 }
 
 h1 {
-    margin-left: 200px;
-    color: black;;
+    color: white;
 }
 
 body{
-    background-image: url(../images/fundo1.jpg);
-    border: 10px solid;
+    background-image: url(../images/fundo1.avif);
+    background-size: 100%;
+    border: 10px;
     border-radius: 12px;
     border-color: lightseagreen;
     box-sizing: content-box;
     min-width: fit-content;
     min-height: auto;
-    padding: 2rem 4rem;
     align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
 }
 
 .submit{
-    margin-left: 250px;
-    margin-right: 250px;
     margin-bottom: 25px;
     border-bottom: 25px solid lightseagreen;
+    border-bottom-right-radius: 12px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
 }
 
 .Comentário{
@@ -39,6 +44,10 @@ body{
     height: auto;
     background-color: lightseagreen;
     border-radius: 12px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: auto;
 }
 
 .checkbox{
@@ -47,6 +56,11 @@ body{
     margin-top: 25px;
     background-color: lightseagreen;
     border-radius: 12px;
+    align-items:center;
+    align-self:center ;
+    align-content:center;
+
+
 }
 
 .rad{
@@ -54,7 +68,10 @@ body{
     margin-right: 18px;
     margin-top: 25px;
     background-color: lightseagreen;
-    border-radius: 12px; 
+    border-radius: 12px;
+    align-items:center;
+    align-self:center ;
+    align-content:center; 
 }
 
 .select{
@@ -63,6 +80,9 @@ body{
     margin-top: 25px;
     background-color: lightseagreen;
     border-radius: 12px;
+    align-items:center;
+    align-self:center ;
+    align-content:center;
 }
 
 form{
@@ -72,9 +92,15 @@ form{
     border-top-left-radius: 12px;
     border-bottom-right-radius: 12px;
     border-top: 25px solid lightseagreen;
+    align-items:center;
+    align-self:center ;
+    align-content:center;
 }
 
 label{
     margin-left: 25px;
     margin-right: 25px;
+    align-items:center;
+    align-self:center ;
+    align-content:center;
 }
